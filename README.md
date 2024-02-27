@@ -1,7 +1,7 @@
 # Welcome to a Crash Course in Supercomputing!
 
-### What is GT Supercomputing?
-As one of the nation's most well-renowned research universities in high-performance computing (HPC), GT Supercomputing seeks to educate Georgia Tech students on HPC's immense presence in research and industry alike. Today, we're hosting a workshop on HPC fundamentals to help students learn how to utilize supercomputing resources at Georgia Tech and elsewhere.
+### What is Supercomputing@GT?
+As one of the nation's most well-renowned research universities in high-performance computing (HPC), Supercomputing@GT seeks to educate Georgia Tech students on HPC's immense presence in research and industry alike. Today, we're hosting a workshop on HPC fundamentals to help students learn how to utilize supercomputing resources at Georgia Tech and elsewhere.
 
 ### Today's Content
 This workshop will primarily focus on HPC fundamentals, including Linux & Bash, SLURM scheduling, and basic parallel programming. This repository contains files that participants will need for today's tasks. You may take a look at today's [agenda](agenda.md) here as well.

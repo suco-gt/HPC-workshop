@@ -52,7 +52,6 @@ int main(int argc, char* argv[])
 	*/
 	// ...
 	
-	
 	if(rank == 0)
 	{
 		double pi = ((double)global_num_points_in_circle) * 4 / n;

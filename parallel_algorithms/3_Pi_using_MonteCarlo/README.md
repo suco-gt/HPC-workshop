@@ -29,8 +29,24 @@ The process with rank 0 then continues to calculate the estimate of pi, calculat
 double pi = ((double)global_num_points_in_circle)*4/n;
 ```
 
-Compile:
-mpicxx -o calc_pi monte_carlo_for_pi.cpp
+### Compile and Run the Code
 
-Run:
-srun -n 100 ./calc_pi 1000000
+To compile, issue the command `make` and the `srun` command for running:
+
+```
+$ make
+$ srun -n 100 ./calc_pi 1000000
+```
+
+Remember that the current makefile compiles the solution code, so if you want to compile and run your code in `monte_carlo_for_pi.cpp` then you need to change the makefile or paste this in the terminal:
+
+```
+$ mpicxx -o calc_pi monte_carlo_for_pi.cpp
+$ srun -n 100 ./calc_pi 1000000
+```
+
+The program output should look something like this:
+
+```
+3.145184000000, 0.013548
+```

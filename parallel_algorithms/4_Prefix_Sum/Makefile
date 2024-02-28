@@ -1,8 +1,8 @@
 CCOMP  = mpicxx
 CFLAGS = -o
 
-run: prefix_sum.o
-	$(CCOMP) $(CFLAGS) prefix prefix_sum.cpp
+run: prefix_sum_solution.o
+	$(CCOMP) $(CFLAGS) prefix prefix_sum_solution.cpp
 
 .PHONY: clean cleanall
 

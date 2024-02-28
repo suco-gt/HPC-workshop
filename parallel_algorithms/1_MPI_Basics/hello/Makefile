@@ -1,8 +1,8 @@
 CCOMP  = mpicxx
 CFLAGS = -o
 
-run: mpi_hello.o
-	$(CCOMP) $(CFLAGS) hello mpi_hello.cpp
+run: mpi_hello_solution.o
+	$(CCOMP) $(CFLAGS) hello mpi_hello_solution.cpp
 
 .PHONY: clean cleanall
 

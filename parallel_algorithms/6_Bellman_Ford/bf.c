@@ -75,7 +75,6 @@ void bellmanFord(Edge* edges, int num_threads, int num_edges, int num_vertices, 
 	for (int i = 0; i < num_vertices; i++) 
 	{
 		distances[i] = (i == 0) ? 0 : INF;
-		//predecessors[i] = -1;
 	}
 	
 	// Relax edges in parallel

@@ -3,9 +3,8 @@
 
 Given an integer array X of size n, return a new array S of the same size where the value stored at the i-th index of this newly formed array denotes the sum of the subarray of X that starts from the 0 index and ends at the i index.
 
-$$
-\text{{prefix\_sum}}(x_i) = \sum_{j=0}^{i} x[j] 
-$$
+$$\text{{prefix\_sum}}(x_i) = \sum_{j=0}^{i} x[j]$$
+
 
 ## Serial Solution
 
